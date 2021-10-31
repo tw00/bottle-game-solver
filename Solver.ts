@@ -30,21 +30,16 @@ function generateMoves(s: State): StateAndMove[] {
   return nextStates;
 }
 
-// class StateTree {
-//   state: State;
-//   children: State[];
-// }
-
 export function DFS(
   initState: State,
-  trail?: State[],
+  trail?: StateAndMove[],
   depth = 0
 ): StateAndMove[] | null {
   const nextStates = generateMoves(initState);
   console.log("depth", depth);
 
   if (!trail) {
-    trail = [initState];
+    trail = [{ state: initState, move: [0, 0] }];
   }
 
   for (const { state, move } of nextStates) {
@@ -52,15 +47,15 @@ export function DFS(
       // @ts-ignore
       return [{ state, move, isSolved: true }];
     }
-    const previousVisit: boolean = trail.some((s) => s.equal(state));
-    console.log("previousVisit", previousVisit);
-    if (previousVisit) {
-      console.log("Found loop");
+
+    const hasPreviousVisit: boolean = trail.some((x) => x.state.equal(state));
+    if (hasPreviousVisit) {
       return null;
     }
-    const result = DFS(state, [...trail, state], depth + 1);
-    if (result) {
-      return [{ state, move }, ...result];
+
+    const solution = DFS(state, [...trail, { state, move }], depth + 1);
+    if (solution) {
+      return [{ state, move }, ...solution];
     }
   }
 

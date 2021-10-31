@@ -5,6 +5,7 @@ import {
   BottleFullError,
   BottleEmptyError,
   InvalidPourError,
+  ColorMismatchError,
 } from "./Errors";
 
 export class State {
@@ -38,11 +39,16 @@ export class State {
 
     try {
       const color: Colors = s.bottles[idx_a].pop();
+      const colorTargetBottle = s.bottles[idx_b].top();
+      if (colorTargetBottle !== Colors.EMPTY && colorTargetBottle !== color) {
+        throw new ColorMismatchError();
+      }
       s.bottles[idx_b].fill(color);
     } catch (error) {
       if (
         error instanceof BottleFullError ||
-        error instanceof BottleEmptyError
+        error instanceof BottleEmptyError ||
+        error instanceof ColorMismatchError
       ) {
         throw new InvalidPourError(`${idx_a} -> ${idx_b}`);
       } else {
