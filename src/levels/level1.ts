@@ -1,5 +1,5 @@
-import { Colors } from "./Constants";
-import { State } from "./State";
+import { Colors } from "../Constants";
+import { State } from "../State";
 
 // const b = new Bottle(Colors.RED, Colors.BLUE, Colors.LIGHTGREEN);
 // console.log("Bottle", b);
