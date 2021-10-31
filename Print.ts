@@ -3,26 +3,28 @@ import { BOTTLE_CAPACITY, Colors } from "./Constants";
 import { Bottle } from "./Bottle";
 import { State } from "./State";
 
-export function name2rgb(name: Colors): ChalkFunction {
+const BLOCK_SYMBOL = "🀫";
+// const SPACE_SYMBOL = ".";
+const SPACE_SYMBOL = " ";
+
+function name2rgb(name: Colors): ChalkFunction {
   const colorMap: Record<Colors, [number, number, number]> = {
-    [Colors.EMPTY]: [255, 255, 255],
-    [Colors.RED]: [255, 0, 0],
-    [Colors.BLUE]: [0, 0, 255],
-    [Colors.LIGHTBLUE]: [100, 100, 255],
-    [Colors.GREY]: [100, 100, 100],
-    [Colors.BROWN]: [0, 0, 0], // TBD
-    [Colors.LIGHTGREEN]: [100, 255, 100],
-    [Colors.YELLOWGREEN]: [0, 0, 0], // TBD
-    [Colors.DARKGREEN]: [0, 255, 0],
-    [Colors.VIOLET]: [255, 0, 255],
-    [Colors.LIGHTYELLOW]: [0, 0, 0], // TBD
-    [Colors.ORANGE]: [255, 255, 0],
-    [Colors.PINK]: [255, 100, 100], // TBD
+    [Colors.EMPTY]: [0, 0, 0],
+    [Colors.RED]: [254, 83, 72],
+    [Colors.BLUE]: [7, 0, 254],
+    [Colors.LIGHTBLUE]: [89, 225, 251],
+    [Colors.GREY]: [127, 141, 154],
+    [Colors.BROWN]: [192, 117, 52],
+    [Colors.LIGHTGREEN]: [165, 255, 230],
+    [Colors.YELLOWGREEN]: [166, 223, 79],
+    [Colors.DARKGREEN]: [48, 168, 99],
+    [Colors.VIOLET]: [141, 0, 247],
+    [Colors.LIGHTYELLOW]: [251, 255, 202],
+    [Colors.ORANGE]: [254, 222, 128],
+    [Colors.PINK]: [252, 155, 194],
   };
   return chalk.rgb(...(colorMap[name] ?? [0, 0, 0]));
 }
-
-export const BLOCK_SYMBOL = "🀫";
 
 function drawBottle(bottle: Bottle): Colors[] {
   const r = Array.from({ length: BOTTLE_CAPACITY }).fill(
@@ -33,8 +35,8 @@ function drawBottle(bottle: Bottle): Colors[] {
 }
 
 export function drawState(state: State, title = "") {
-  const N = BOTTLE_CAPACITY + 1;
-  const M = (state.bottles.length - 1) * 3 - 2;
+  const N = BOTTLE_CAPACITY;
+  const M = state.bottles.length * 3;
 
   type T = Colors | null;
   const canvas: T[][] = Array.from({ length: N }).map(
@@ -44,7 +46,7 @@ export function drawState(state: State, title = "") {
   state.bottles.forEach((bottle, idx) => {
     const bottleColors = drawBottle(bottle);
     for (let i = 0; i < bottleColors.length; i++) {
-      canvas[i + 1][idx * 3 + 1] = bottleColors[i];
+      canvas[N - i - 1][idx * 3 + 1] = bottleColors[i];
     }
   });
 
@@ -54,7 +56,7 @@ export function drawState(state: State, title = "") {
   for (let i = 0; i < N; i++) {
     for (let j = 0; j < M; j++) {
       const name = canvas[i][j];
-      process.stdout.write(name ? name2rgb(name)(BLOCK_SYMBOL) : " ");
+      process.stdout.write(name ? name2rgb(name)(BLOCK_SYMBOL) : SPACE_SYMBOL);
     }
     process.stdout.write("\n");
   }

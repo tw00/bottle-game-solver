@@ -1,5 +1,5 @@
 export enum Colors {
-  EMPTY = "",
+  EMPTY = "empty",
   RED = "red",
   BLUE = "blue",
   LIGHTBLUE = "lightblue",
@@ -14,4 +14,4 @@ export enum Colors {
   PINK = "pink",
 }
 
-export const BOTTLE_CAPACITY = 5;
+export const BOTTLE_CAPACITY = 4;

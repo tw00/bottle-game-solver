@@ -37,8 +37,8 @@ export class State {
     }
 
     try {
-      const color: Colors = this.bottles[idx_a].pop();
-      this.bottles[idx_b].fill(color);
+      const color: Colors = s.bottles[idx_a].pop();
+      s.bottles[idx_b].fill(color);
     } catch (error) {
       if (
         error instanceof BottleFullError ||
@@ -68,7 +68,7 @@ export class State {
   isSolved(): boolean {
     for (const bottle of this.bottles) {
       if (bottle.isEmpty() || bottle.isSameColor()) {
-        break;
+        continue;
       }
       return false;
     }

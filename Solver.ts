@@ -35,18 +35,34 @@ function generateMoves(s: State): StateAndMove[] {
 //   children: State[];
 // }
 
-export function DFS(initState: State): State[] | null {
+export function DFS(
+  initState: State,
+  trail?: State[],
+  depth = 0
+): StateAndMove[] | null {
   const nextStates = generateMoves(initState);
-  for (const { state } of nextStates) {
+  console.log("depth", depth);
+
+  if (!trail) {
+    trail = [initState];
+  }
+
+  for (const { state, move } of nextStates) {
     if (state.isSolved()) {
-      return [state];
+      // @ts-ignore
+      return [{ state, move, isSolved: true }];
     }
-    const result = DFS(state);
-    // TODO: Check
-    // const previousVisit = trail.some(s => s.equal(state));
+    const previousVisit: boolean = trail.some((s) => s.equal(state));
+    console.log("previousVisit", previousVisit);
+    if (previousVisit) {
+      console.log("Found loop");
+      return null;
+    }
+    const result = DFS(state, [...trail, state], depth + 1);
     if (result) {
-      return [state, ...result];
+      return [{ state, move }, ...result];
     }
   }
+
   return null;
 }
