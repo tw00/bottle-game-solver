@@ -13,3 +13,7 @@ STRICT_MODE=true ts-node main.ts
 ```
 STRICT_MODE=true ts-node show.ts
 ```
+
+### Example
+
+![](./docs/example.png)
