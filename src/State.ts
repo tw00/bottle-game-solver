@@ -8,7 +8,20 @@ import {
   BottleEmptyError,
   InvalidPourError,
   ColorMismatchError,
+  PointlessPartialFillError,
+  PointlessPourError,
 } from "./Errors";
+
+const STRICT_MODE = process.env.STRICT_MODE === "true";
+
+export enum ScoreMethod {
+  RANDOM = "random",
+  HEURISTIC_PREFER_EMPTY = "heuristic-prefer-empty",
+}
+
+export interface StateOptions {
+  method?: ScoreMethod;
+}
 
 export class State {
   public bottles: Bottle[];
@@ -42,10 +55,24 @@ export class State {
     try {
       const target = s.bottles[idx_b];
       const source = s.bottles[idx_a];
-      const count = Math.min(
-        target.getAvailableSpace(),
-        source.getSameColorCount()
-      );
+      const spaceAvailable = target.getAvailableSpace();
+      const sameColorCount = source.getSameColorCount();
+      const count = Math.min(spaceAvailable, sameColorCount);
+      if (STRICT_MODE && sameColorCount > spaceAvailable) {
+        throw new PointlessPartialFillError();
+      }
+      if (STRICT_MODE && target.isEmpty() && source.isSameColor()) {
+        throw new PointlessPourError();
+      }
+      if (
+        STRICT_MODE &&
+        count === 1 &&
+        target.isSameColor() &&
+        source.isSameColor() &&
+        target.top() === source.top()
+      ) {
+        throw new PointlessPourError();
+      }
       if (count === 0) {
         throw new BottleFullError();
       }
@@ -54,7 +81,9 @@ export class State {
       if (
         error instanceof BottleFullError ||
         error instanceof BottleEmptyError ||
-        error instanceof ColorMismatchError
+        error instanceof ColorMismatchError ||
+        error instanceof PointlessPartialFillError ||
+        error instanceof PointlessPourError
       ) {
         throw new InvalidPourError(`${idx_a} -> ${idx_b}`);
       } else {
@@ -81,17 +110,23 @@ export class State {
     );
   }
 
-  getScore(): number {
-    let score = 0;
-    this.bottles.forEach((bottle) => {
-      if (bottle.isEmpty()) {
-        score += 1;
-      }
-      if (bottle.isSameColor()) {
-        score += 0.5;
-      }
-    });
-    return score;
+  getScore(method = ScoreMethod.RANDOM): number {
+    if (method === ScoreMethod.RANDOM) {
+      return Math.random();
+    }
+    if (method === ScoreMethod.HEURISTIC_PREFER_EMPTY) {
+      let score = 0;
+      this.bottles.forEach((bottle) => {
+        if (bottle.isEmpty()) {
+          score += 1;
+        }
+        if (bottle.isSameColor()) {
+          score += 0.5;
+        }
+      });
+      return score;
+    }
+    return 0;
   }
 
   getHash(): string {

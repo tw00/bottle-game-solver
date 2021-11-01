@@ -1,0 +1,4477 @@
+[
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "violet",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "orange",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "lightgreen",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": []
+        }
+      ]
+    },
+    "move": [
+      9,
+      12
+    ],
+    "score": 0.9421287183800258
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "violet",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "orange",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "pink"
+          ]
+        }
+      ]
+    },
+    "move": [
+      8,
+      13
+    ],
+    "score": 0.9013202608330326
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "violet",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "orange",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink"
+          ]
+        }
+      ]
+    },
+    "move": [
+      11,
+      13
+    ],
+    "score": 0.818057244920686
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "violet",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "orange",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "lightgreen",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink"
+          ]
+        }
+      ]
+    },
+    "move": [
+      1,
+      8
+    ],
+    "score": 0.502346669293882
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "violet",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "orange",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "lightgreen",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink"
+          ]
+        }
+      ]
+    },
+    "move": [
+      9,
+      1
+    ],
+    "score": 0.8609874526417924
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "violet",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "orange",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "lightgreen",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange"
+          ]
+        },
+        {
+          "colors": []
+        },
+        {
+          "colors": [
+            "pink",
+            "pink"
+          ]
+        }
+      ]
+    },
+    "move": [
+      12,
+      9
+    ],
+    "score": 0.4071642359295664
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "violet",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "orange",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "lightgreen",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": []
+        }
+      ]
+    },
+    "move": [
+      13,
+      12
+    ],
+    "score": 0.7017593049698985
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "violet",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "orange",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      8,
+      13
+    ],
+    "score": 0.799026663739228
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "orange",
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      5,
+      8
+    ],
+    "score": 0.6053093658322071
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      7,
+      13
+    ],
+    "score": 0.91531561253486
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      7,
+      11
+    ],
+    "score": 0.24535224246933773
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      3,
+      8
+    ],
+    "score": 0.5855718115626762
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      5,
+      7
+    ],
+    "score": 0.7343874605508709
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      2,
+      3
+    ],
+    "score": 0.926436391122903
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": []
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      12,
+      5
+    ],
+    "score": 0.682893268146695
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      3,
+      12
+    ],
+    "score": 0.6551868592950769
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      3,
+      7
+    ],
+    "score": 0.6877398806318349
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": []
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      3,
+      13
+    ],
+    "score": 0.9443692575267659
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      1,
+      3
+    ],
+    "score": 0.8192918426207731
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      9,
+      1
+    ],
+    "score": 0.5406086190333228
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      11,
+      9
+    ],
+    "score": 0.6112769296833229
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      4,
+      11
+    ],
+    "score": 0.48741556065909486
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      0,
+      4
+    ],
+    "score": 0.33000227888569156
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      10,
+      12
+    ],
+    "score": 0.8438259360817828
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      0,
+      3
+    ],
+    "score": 0.3309555500852521
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      8,
+      0
+    ],
+    "score": 0.20819866174864732
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      10,
+      8
+    ],
+    "score": 0.3841803273620048
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      11,
+      10
+    ],
+    "score": 0.8859504480016374
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      7,
+      11
+    ],
+    "score": 0.3080733436777756
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "red",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": []
+        },
+        {
+          "colors": [
+            "violet",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      10,
+      7
+    ],
+    "score": 0.3573554403426977
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "red",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      5,
+      10
+    ],
+    "score": 0.7779421586997464
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "red",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      4,
+      5
+    ],
+    "score": 0.7835709630903
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "red",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      6,
+      10
+    ],
+    "score": 0.9152599026152266
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "red",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "lightyellow",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      4,
+      8
+    ],
+    "score": 0.48031264223129044
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "red",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "lightyellow",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      6,
+      9
+    ],
+    "score": 0.15318218621703394
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue"
+          ]
+        },
+        {
+          "colors": [
+            "red",
+            "red",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "lightyellow",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      6,
+      2
+    ],
+    "score": 0.5432908941348693
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "lightblue",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": []
+        },
+        {
+          "colors": [
+            "red",
+            "red",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "lightyellow",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      6,
+      5
+    ],
+    "score": 0.8335573610353069
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "lightblue",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": []
+        },
+        {
+          "colors": [
+            "red",
+            "red",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "lightyellow",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      1,
+      4
+    ],
+    "score": 0.6892435035576299
+  },
+  {
+    "state": {
+      "bottles": [
+        {
+          "colors": [
+            "grey",
+            "grey",
+            "grey",
+            "grey"
+          ]
+        },
+        {
+          "colors": []
+        },
+        {
+          "colors": [
+            "darkgreen",
+            "darkgreen",
+            "darkgreen",
+            "darkgreen"
+          ]
+        },
+        {
+          "colors": [
+            "blue",
+            "blue",
+            "blue",
+            "blue"
+          ]
+        },
+        {
+          "colors": [
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen",
+            "yellowgreen"
+          ]
+        },
+        {
+          "colors": [
+            "lightblue",
+            "lightblue",
+            "lightblue",
+            "lightblue"
+          ]
+        },
+        {
+          "colors": []
+        },
+        {
+          "colors": [
+            "red",
+            "red",
+            "red",
+            "red"
+          ]
+        },
+        {
+          "colors": [
+            "lightyellow",
+            "lightyellow",
+            "lightyellow",
+            "lightyellow"
+          ]
+        },
+        {
+          "colors": [
+            "orange",
+            "orange",
+            "orange",
+            "orange"
+          ]
+        },
+        {
+          "colors": [
+            "pink",
+            "pink",
+            "pink",
+            "pink"
+          ]
+        },
+        {
+          "colors": [
+            "violet",
+            "violet",
+            "violet",
+            "violet"
+          ]
+        },
+        {
+          "colors": [
+            "brown",
+            "brown",
+            "brown",
+            "brown"
+          ]
+        },
+        {
+          "colors": [
+            "lightgreen",
+            "lightgreen",
+            "lightgreen",
+            "lightgreen"
+          ]
+        }
+      ]
+    },
+    "move": [
+      1,
+      8
+    ],
+    "score": 0.7070809962420488
+  }
+]

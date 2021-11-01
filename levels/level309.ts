@@ -1,5 +1,5 @@
-import { Colors as C } from "../Constants";
-import { State } from "../State";
+import { Colors as C } from "../src/Constants";
+import { State } from "../src/State";
 
 // const s = new State(15);
 const s = new State(14);
