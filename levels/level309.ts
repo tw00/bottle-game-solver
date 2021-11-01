@@ -1,6 +1,7 @@
 import { Colors as C } from "../Constants";
 import { State } from "../State";
 
+// const s = new State(15);
 const s = new State(14);
 
 s.set(0, [C.GREY, C.BLUE, C.BLUE, C.LIGHTBLUE]);
@@ -17,5 +18,6 @@ s.set(10, [C.RED, C.LIGHTYELLOW, C.BROWN, C.BROWN]);
 s.set(11, [C.VIOLET, C.RED, C.ORANGE, C.PINK]);
 s.set(12, []);
 s.set(13, []);
+// s.set(14, []);
 
 export default s;

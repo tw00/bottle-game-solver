@@ -1,3 +1,5 @@
+import crypto from "crypto";
+
 import { Colors } from "./Constants";
 import { Bottle } from "./Bottle";
 import {
@@ -38,12 +40,16 @@ export class State {
     }
 
     try {
-      const color: Colors = s.bottles[idx_a].pop();
-      const colorTargetBottle = s.bottles[idx_b].top();
-      if (colorTargetBottle !== Colors.EMPTY && colorTargetBottle !== color) {
-        throw new ColorMismatchError();
+      const target = s.bottles[idx_b];
+      const source = s.bottles[idx_a];
+      const count = Math.min(
+        target.getAvailableSpace(),
+        source.getSameColorCount()
+      );
+      if (count === 0) {
+        throw new BottleFullError();
       }
-      s.bottles[idx_b].fill(color);
+      target.fill(source.pop(count), count);
     } catch (error) {
       if (
         error instanceof BottleFullError ||
@@ -73,5 +79,23 @@ export class State {
     return this.bottles.every(
       (bottle) => bottle.isEmpty() || bottle.isSameColor()
     );
+  }
+
+  getScore(): number {
+    let score = 0;
+    this.bottles.forEach((bottle) => {
+      if (bottle.isEmpty()) {
+        score += 1;
+      }
+      if (bottle.isSameColor()) {
+        score += 0.5;
+      }
+    });
+    return score;
+  }
+
+  getHash(): string {
+    const str = this.bottles.map((bottle) => bottle.getHash()).join(":");
+    return crypto.createHash("md5").update(str).digest("hex");
   }
 }

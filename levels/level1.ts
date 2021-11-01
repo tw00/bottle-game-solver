@@ -1,9 +1,6 @@
 import { Colors } from "../Constants";
 import { State } from "../State";
 
-// const b = new Bottle(Colors.RED, Colors.BLUE, Colors.LIGHTGREEN);
-// console.log("Bottle", b);
-
 const s = new State(6);
 
 s.set(0, [Colors.RED, Colors.BLUE, Colors.LIGHTGREEN]);

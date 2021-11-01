@@ -2,13 +2,14 @@ import { InvalidPourError } from "./Errors";
 import { drawState } from "./Print";
 import { State } from "./State";
 
-interface StateAndMove {
+export interface StateWithMeta {
   state: State;
   move: [number, number];
+  score: number;
 }
 
-export function generateMoves(s: State): StateAndMove[] {
-  const nextStates: StateAndMove[] = [];
+export function generateMoves(s: State): StateWithMeta[] {
+  const nextStates: StateWithMeta[] = [];
   const n = s.bottles.length;
 
   for (let j = 0; j < n; j++) {
@@ -18,7 +19,7 @@ export function generateMoves(s: State): StateAndMove[] {
       }
       try {
         const newState = s.pour(i, j);
-        nextStates.push({ state: newState, move: [i, j] });
+        nextStates.push({ state: newState, move: [i, j], score: -1 });
       } catch (error) {
         if (error instanceof InvalidPourError) {
           continue;
@@ -31,47 +32,45 @@ export function generateMoves(s: State): StateAndMove[] {
   return nextStates;
 }
 
-function makeProgressTracker() {
-  let counter = 0;
-
-  return function showProgress(state: State) {
-    counter += 1;
-    if (Math.random() > 0.999) {
-      console.log(`Tried ${counter} states`);
-      drawState(state);
-    }
-  };
+function addScore({ state, move }: StateWithMeta): StateWithMeta {
+  return { state, move, score: state.getScore() };
 }
 
-function prioritize(input: StateAndMove[]): StateAndMove[] {
-  // TODO: Find empty and score higher
-  return input;
+export function prioritize(input: StateWithMeta[]): StateWithMeta[] {
+  return input.map(addScore).sort((a, b) => b.score - a.score);
 }
 
-const showProgress = makeProgressTracker();
+const hashMap = new Map<string, boolean>();
+
+type TrackerFunc = (s: State, m: typeof hashMap) => void;
 
 export function DFS(
   initState: State,
-  trail?: StateAndMove[],
-  depth = 0
-): StateAndMove[] | null {
-  const nextStates = prioritize(generateMoves(initState));
-
-  if (!trail) {
-    trail = [{ state: initState, move: [0, 0] }];
+  tracker?: TrackerFunc,
+  trail: StateWithMeta[] = []
+): StateWithMeta[] | null {
+  if (trail.length === 0) {
+    trail = [{ state: initState, move: [0, 0], score: -1 }];
   }
+
+  const nextStates = prioritize(generateMoves(initState));
 
   for (const result of nextStates) {
     const { state } = result;
-    showProgress(state);
+    tracker && tracker(state, hashMap);
 
     if (state.isSolved()) {
       // throw new Solved([...trail, state]);
       return [result];
     }
-    // drawState(state, `Depth ${depth}, move: ${move[0]} -> ${move[1]}`);
-    // console.log(`Depth ${depth}, move: ${move[0]} -> ${move[1]}`);
 
+    const hash = state.getHash();
+    if (hashMap.has(hash)) {
+      return null;
+    }
+    hashMap.set(hash, true);
+
+    /*
     const hasPreviousVisit = trail.some((previousState) =>
       previousState.state.equal(state)
     );
@@ -79,8 +78,9 @@ export function DFS(
     if (hasPreviousVisit) {
       return null;
     }
+    */
 
-    const solution = DFS(state, [...trail, result], depth + 1);
+    const solution = DFS(state, tracker, [...trail, result]);
     if (solution) {
       return [result, ...solution];
     }

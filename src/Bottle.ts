@@ -1,5 +1,10 @@
 import { Colors, BOTTLE_CAPACITY } from "./Constants";
-import { BottleFullError, BottleEmptyError } from "./Errors";
+import {
+  BottleFullError,
+  BottleEmptyError,
+  ColorMismatchError,
+  PoppedColorNotSameError,
+} from "./Errors";
 
 export class Bottle {
   public colors: Colors[];
@@ -32,19 +37,49 @@ export class Bottle {
     );
   }
 
-  fill(c: Colors): void {
-    if (!this.isFull()) {
-      this.colors.push(c);
-    } else {
-      throw new BottleFullError();
+  fill(c: Colors, count: number): void {
+    while (count > 0) {
+      if (!this.isFull()) {
+        const topColor = this.top();
+        if (topColor !== Colors.EMPTY && topColor !== c) {
+          throw new ColorMismatchError();
+        }
+        this.colors.push(c);
+      } else {
+        throw new BottleFullError();
+      }
+      count -= 1;
     }
   }
 
-  pop(): Colors {
+  pop(count: number): Colors {
     if (this.colors.length === 0) {
       throw new BottleEmptyError();
     }
-    return this.colors.pop() || Colors.EMPTY;
+    const color: Colors = this.colors.pop()!;
+    count -= 1;
+    while (count > 0) {
+      const colorNext = this.colors.pop();
+      if (colorNext !== color) {
+        throw new PoppedColorNotSameError();
+      }
+      count -= 1;
+    }
+    return color;
+  }
+
+  getSameColorCount(): number {
+    const colorTop = this.top();
+    const N = this.colors.length;
+    let count = 1;
+    while (this.colors[N - count - 1] === colorTop) {
+      count += 1;
+    }
+    return count;
+  }
+
+  getAvailableSpace() {
+    return BOTTLE_CAPACITY - this.colors.length;
   }
 
   clone(): Bottle {
@@ -56,5 +91,9 @@ export class Bottle {
       this.colors.length === other.colors.length &&
       this.colors.every((color, idx) => color === other.colors[idx])
     );
+  }
+
+  getHash(): string {
+    return this.colors.join("-");
   }
 }

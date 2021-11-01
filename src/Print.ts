@@ -64,3 +64,20 @@ export function drawState(state: State, title = "") {
     process.stdout.write("\n");
   }
 }
+
+export function makeProgressTracker() {
+  let counter = 0;
+
+  return function showProgress(state: State, hashMap: Map<string, boolean>) {
+    counter += 1;
+    if (Math.random() > 0.999) {
+      console.log(
+        `Tried ${counter} states, found ${hashMap.size} unique states`
+      );
+      drawState(state);
+
+      // drawState(state, `Depth ${trail.length}, move: ${move[0]} -> ${move[1]}`);
+      // console.log(`Depth ${trail.length}, move: ${move[0]} -> ${move[1]}`);
+    }
+  };
+}
