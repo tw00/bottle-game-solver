@@ -7,11 +7,21 @@ export interface StateWithMeta {
   score: number;
 }
 
-export type TrackerFunc = (s: State, m: Map<string, boolean>) => void;
+export enum PruningMethod {
+  GLOBAL_HASH_MAP = "global-hash-map",
+  TRAIL_CHECK = "trail-check",
+}
+
+export type TrackerFunc = (
+  s: State,
+  t: StateWithMeta[],
+  m: Map<string, boolean>
+) => void;
 
 export interface SolverOptions {
-  method: ScoreMethod;
-  tracker: TrackerFunc;
+  method?: ScoreMethod;
+  pruning?: PruningMethod;
+  tracker?: TrackerFunc;
 }
 
 export function generateMoves(s: State): StateWithMeta[] {
@@ -55,6 +65,7 @@ export function prioritize(
 
 export function createSolver({
   method = ScoreMethod.HEURISTIC_PREFER_EMPTY,
+  pruning = PruningMethod.GLOBAL_HASH_MAP,
   tracker = () => {},
 }: SolverOptions) {
   const hashMap = new Map<string, boolean>();
@@ -71,28 +82,30 @@ export function createSolver({
 
     for (const result of nextStates) {
       const { state } = result;
-      tracker && tracker(state, hashMap);
+      tracker && tracker(state, trail, hashMap);
 
       if (state.isSolved()) {
         // throw new Solved([...trail, state]);
         return [result];
       }
 
-      const hash = state.getHash();
-      if (hashMap.has(hash)) {
-        return null;
+      if (pruning === PruningMethod.GLOBAL_HASH_MAP) {
+        const hash = state.getHash();
+        if (hashMap.has(hash)) {
+          return null;
+        }
+        hashMap.set(hash, true);
       }
-      hashMap.set(hash, true);
 
-      /*
-      const hasPreviousVisit = trail.some((previousState) =>
-        previousState.state.equal(state)
-      );
+      if (pruning === PruningMethod.TRAIL_CHECK) {
+        const hasPreviousVisit = trail.some((previousState) =>
+          previousState.state.equal(state)
+        );
 
-      if (hasPreviousVisit) {
-        return null;
+        if (hasPreviousVisit) {
+          return null;
+        }
       }
-      */
 
       const solution = DFS(state, [...trail, result]);
       if (solution) {

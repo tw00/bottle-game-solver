@@ -2,12 +2,13 @@ import chalk, { ChalkFunction } from "chalk";
 import { BOTTLE_CAPACITY, Colors } from "./Constants";
 import { Bottle } from "./Bottle";
 import { State } from "./State";
+import { StateWithMeta } from "./Solver";
 
-// const BLOCK_SYMBOL = "🀫";
 const BLOCK_SYMBOL = "█";
+const SPACE_SYMBOL = " ";
+// const BLOCK_SYMBOL = "🀫";
 // const BLOCK_SYMBOL = "▇";
 // const SPACE_SYMBOL = ".";
-const SPACE_SYMBOL = " ";
 
 function name2rgb(name: Colors): ChalkFunction {
   const colorMap: Record<Colors, [number, number, number]> = {
@@ -68,16 +69,17 @@ export function drawState(state: State, title = "") {
 export function makeProgressTracker() {
   let counter = 0;
 
-  return function showProgress(state: State, hashMap: Map<string, boolean>) {
+  return function showProgress(
+    state: State,
+    trail: StateWithMeta[],
+    hashMap: Map<string, boolean>
+  ) {
     counter += 1;
     if (Math.random() > 0.999) {
       console.log(
-        `Tried ${counter} states, found ${hashMap.size} unique states`
+        `Tried ${counter} states, found ${hashMap.size} unique states, depth: ${trail.length}`
       );
       drawState(state);
-
-      // drawState(state, `Depth ${trail.length}, move: ${move[0]} -> ${move[1]}`);
-      // console.log(`Depth ${trail.length}, move: ${move[0]} -> ${move[1]}`);
     }
   };
 }
