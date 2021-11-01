@@ -1,4 +1,5 @@
 import { InvalidPourError } from "./Errors";
+import { drawState } from "./Print";
 import { State } from "./State";
 
 interface StateAndMove {
@@ -6,12 +7,12 @@ interface StateAndMove {
   move: [number, number];
 }
 
-function generateMoves(s: State): StateAndMove[] {
+export function generateMoves(s: State): StateAndMove[] {
   const nextStates: StateAndMove[] = [];
   const n = s.bottles.length;
 
-  for (let i = 0; i < n; i++) {
-    for (let j = 0; j < n; j++) {
+  for (let j = 0; j < n; j++) {
+    for (let i = 0; i < n; i++) {
       if (i === j) {
         continue;
       }
@@ -30,32 +31,58 @@ function generateMoves(s: State): StateAndMove[] {
   return nextStates;
 }
 
+function makeProgressTracker() {
+  let counter = 0;
+
+  return function showProgress(state: State) {
+    counter += 1;
+    if (Math.random() > 0.999) {
+      console.log(`Tried ${counter} states`);
+      drawState(state);
+    }
+  };
+}
+
+function prioritize(input: StateAndMove[]): StateAndMove[] {
+  // TODO: Find empty and score higher
+  return input;
+}
+
+const showProgress = makeProgressTracker();
+
 export function DFS(
   initState: State,
   trail?: StateAndMove[],
   depth = 0
 ): StateAndMove[] | null {
-  const nextStates = generateMoves(initState);
-  console.log("depth", depth);
+  const nextStates = prioritize(generateMoves(initState));
 
   if (!trail) {
     trail = [{ state: initState, move: [0, 0] }];
   }
 
-  for (const { state, move } of nextStates) {
-    if (state.isSolved()) {
-      // @ts-ignore
-      return [{ state, move, isSolved: true }];
-    }
+  for (const result of nextStates) {
+    const { state } = result;
+    showProgress(state);
 
-    const hasPreviousVisit: boolean = trail.some((x) => x.state.equal(state));
+    if (state.isSolved()) {
+      // throw new Solved([...trail, state]);
+      return [result];
+    }
+    // drawState(state, `Depth ${depth}, move: ${move[0]} -> ${move[1]}`);
+    // console.log(`Depth ${depth}, move: ${move[0]} -> ${move[1]}`);
+
+    const hasPreviousVisit = trail.some((previousState) =>
+      previousState.state.equal(state)
+    );
+
     if (hasPreviousVisit) {
       return null;
     }
 
-    const solution = DFS(state, [...trail, { state, move }], depth + 1);
+    const solution = DFS(state, [...trail, result], depth + 1);
     if (solution) {
-      return [{ state, move }, ...solution];
+      return [result, ...solution];
     }
   }
 

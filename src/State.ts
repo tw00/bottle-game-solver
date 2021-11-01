@@ -63,21 +63,15 @@ export class State {
     if (this.bottles.length !== other.bottles.length) {
       return false;
     }
-    this.bottles.forEach((bottle, idx) => {
-      if (bottle.equal(other.bottles[idx])) {
-        return true;
-      }
-    });
-    return false;
+
+    return this.bottles.every((bottle, idx) =>
+      bottle.equal(other.bottles[idx])
+    );
   }
 
   isSolved(): boolean {
-    for (const bottle of this.bottles) {
-      if (bottle.isEmpty() || bottle.isSameColor()) {
-        continue;
-      }
-      return false;
-    }
-    return true;
+    return this.bottles.every(
+      (bottle) => bottle.isEmpty() || bottle.isSameColor()
+    );
   }
 }

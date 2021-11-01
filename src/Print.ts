@@ -3,25 +3,27 @@ import { BOTTLE_CAPACITY, Colors } from "./Constants";
 import { Bottle } from "./Bottle";
 import { State } from "./State";
 
-const BLOCK_SYMBOL = "🀫";
+// const BLOCK_SYMBOL = "🀫";
+const BLOCK_SYMBOL = "█";
+// const BLOCK_SYMBOL = "▇";
 // const SPACE_SYMBOL = ".";
 const SPACE_SYMBOL = " ";
 
 function name2rgb(name: Colors): ChalkFunction {
   const colorMap: Record<Colors, [number, number, number]> = {
     [Colors.EMPTY]: [0, 0, 0],
-    [Colors.RED]: [254, 83, 72],
-    [Colors.BLUE]: [7, 0, 254],
-    [Colors.LIGHTBLUE]: [89, 225, 251],
-    [Colors.GREY]: [127, 141, 154],
-    [Colors.BROWN]: [192, 117, 52],
-    [Colors.LIGHTGREEN]: [165, 255, 230],
-    [Colors.YELLOWGREEN]: [166, 223, 79],
-    [Colors.DARKGREEN]: [48, 168, 99],
-    [Colors.VIOLET]: [141, 0, 247],
-    [Colors.LIGHTYELLOW]: [251, 255, 202],
-    [Colors.ORANGE]: [254, 222, 128],
-    [Colors.PINK]: [252, 155, 194],
+    [Colors.RED]: [196, 42, 34],
+    [Colors.BLUE]: [59, 38, 193],
+    [Colors.LIGHTBLUE]: [86, 161, 228],
+    [Colors.GREY]: [99, 100, 102],
+    [Colors.BROWN]: [125, 75, 8],
+    [Colors.LIGHTGREEN]: [97, 215, 125],
+    [Colors.YELLOWGREEN]: [120, 152, 14],
+    [Colors.DARKGREEN]: [17, 101, 50],
+    [Colors.VIOLET]: [114, 39, 147],
+    [Colors.LIGHTYELLOW]: [241, 219, 88],
+    [Colors.ORANGE]: [232, 141, 65],
+    [Colors.PINK]: [234, 94, 123],
   };
   return chalk.rgb(...(colorMap[name] ?? [0, 0, 0]));
 }
@@ -36,7 +38,7 @@ function drawBottle(bottle: Bottle): Colors[] {
 
 export function drawState(state: State, title = "") {
   const N = BOTTLE_CAPACITY;
-  const M = state.bottles.length * 3;
+  const M = state.bottles.length * 3 + 1;
 
   type T = Colors | null;
   const canvas: T[][] = Array.from({ length: N }).map(
@@ -47,6 +49,7 @@ export function drawState(state: State, title = "") {
     const bottleColors = drawBottle(bottle);
     for (let i = 0; i < bottleColors.length; i++) {
       canvas[N - i - 1][idx * 3 + 1] = bottleColors[i];
+      canvas[N - i - 1][idx * 3 + 2] = bottleColors[i];
     }
   });
 

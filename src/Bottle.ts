@@ -9,7 +9,6 @@ export class Bottle {
       throw new BottleFullError();
     }
     this.colors = args;
-    // TODO: Fill with Colors.EMPTY?
   }
 
   top() {
