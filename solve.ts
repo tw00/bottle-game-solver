@@ -1,10 +1,9 @@
 import chalk from "chalk";
 import { writeFileSync } from "fs";
-
-import L309 from "./levels/level309";
 import { drawState, makeProgressTracker } from "./src/Print";
 import { createSolver } from "./src/Solver";
 import { ScoreMethod } from "./src/State";
+import L309 from "./levels/level309";
 
 const FIND_BETTER_SOLUTIONS = true;
 const STRICT_MODE = process.env.STRICT_MODE === "true";

@@ -1,13 +1,14 @@
 {
-  "name": "bottles",
+  "name": "bottle-game-solver",
   "version": "1.0.0",
   "description": "",
-  "main": "main.ts",
+  "main": "solve.ts",
   "scripts": {
-    "solve": "ts-node main.ts"
+    "solve": "ts-node solve.ts",
+    "show": "ts-node show.ts"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Thomas Weustenfeld",
+  "license": "MIT",
   "dependencies": {
     "chalk": "^4.1.2"
   },
